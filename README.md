@@ -26,8 +26,8 @@ pip install -r requirements.txt
 Restart ComfyUI:
 After installing the dependencies, restart ComfyUI to load the custom node.
 
-##Usage
-Input a Prompt: Provide a descriptive text prompt for the image.
-Select a Model: Choose your preferred model from Together AI.
-(Optional) Add LoRA URLs: Improve output quality with external LoRA URLs and specify scaling factors.
-Generate the Image: The resulting image will be ready for use within your ComfyUI workflows.
+## Usage
+Input a Prompt: Provide a descriptive text prompt for the image./n
+Select a Model: Choose your preferred model from Together AI./n
+(Optional) Add LoRA URLs: Improve output quality with external LoRA URLs and specify scaling factors./n
+Generate the Image: The resulting image will be ready for use within your ComfyUI workflows./n
