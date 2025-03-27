@@ -1,19 +1,33 @@
 # Text-to-Image-Image Generator for ComfyUI
-A ComfyUI node to implement Together AI API image generation
+# 🚀 Text-to-Image Generator for ComfyUI with Together AI API  
+A custom ComfyUI node that integrates with the **Together AI API** to generate high-quality images from text prompts, with support for LoRA models.  
 
-Overview
-This ComfyUI custom node integrates with the Together API to generate images from text prompts. It (should) support LoRA models.[Work in progress]
+⚡️ **Status:** Work in progress  
 
-Features
-Generate images via the Together API.
-Supports LoRA models via external URLs.
-Adjustable width, height, and step count.
-Installation
-Install dependencies: pip install -r requirements.txt
+---
 
-Restart ComfyUI and use the node.
+## 🎨 Features  
+✅ **Seamless Image Generation:** Generate stunning images using the Together AI API.  
+✅ **LoRA Model Support:** Enhance your outputs by integrating LoRA models via external URLs.  
+✅ **Customizable Parameters:**  
+- Adjustable width and height for tailored image dimensions.  
+- Configurable step count to control image refinement and quality.  
 
-Usage
-Input a prompt and model.
-(Optional) Provide LoRA URLs and scales.
-Generates an image for use in ComfyUI workflows.
+---
+
+## 📦 Installation  
+1. **Clone the Repository:**  
+```bash
+git clone https://github.com/your-repo-name.git
+cd your-repo-name
+
+pip install -r requirements.txt
+```
+Restart ComfyUI:
+After installing the dependencies, restart ComfyUI to load the custom node.
+
+##Usage
+Input a Prompt: Provide a descriptive text prompt for the image.
+Select a Model: Choose your preferred model from Together AI.
+(Optional) Add LoRA URLs: Improve output quality with external LoRA URLs and specify scaling factors.
+Generate the Image: The resulting image will be ready for use within your ComfyUI workflows.
