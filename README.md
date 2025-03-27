@@ -1,4 +1,4 @@
-# Text-to-Image-Image Generator for ComfyUI
+# Text-to-Image Generator for ComfyUI
 # 🚀 Text-to-Image Generator for ComfyUI with Together AI API  
 A custom ComfyUI node that integrates with the **Together AI API** to generate high-quality images from text prompts, with support for LoRA models.  
 
